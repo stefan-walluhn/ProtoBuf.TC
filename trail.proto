@@ -1,0 +1,15 @@
+package tc.trail;
+
+import "state.proto";
+import "command.proto";
+
+option java_package = "de.walluhn.tc.proto";
+option java_outer_classname = "Trail";
+
+message Event {
+    required TrailState state = 1;
+}
+
+message Command {
+    required TrailCommand type = 1;
+}

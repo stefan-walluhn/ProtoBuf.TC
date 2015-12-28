@@ -1,0 +1,9 @@
+package tc.trail;
+
+option java_package = "de.walluhn.tc.proto";
+option java_outer_classname = "Command";
+
+enum TrailCommand {
+    REGISTER = 0;
+    ACTIVATE = 3;
+}
