@@ -1,0 +1,11 @@
+package tc.trail;
+
+option java_package = "de.walluhn.tc.proto.state";
+option java_outer_classname = "Trail";
+
+enum State {
+    IDLE = 0;
+    REGISTERED = 1;
+    HOLD = 2;
+    ACTIVE = 3;
+}
